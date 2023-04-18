@@ -17,12 +17,13 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 10px;
-}
+/* html {
+  /* font-size: 10px; */
+/* } */
 
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #005490;
 }
 
 p {
@@ -38,4 +39,10 @@ img {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
+  background-color: #005490;
+  height: 100vh;
+}
+
+.row {
+  height: 100vh;
 }
